@@ -1,13 +1,118 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+      'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+      'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  padding: 20px;
+  background: whitesmoke;
+}
+img {
+  height: 80px;
+}
+.card {
+  background: white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+.productsWrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+.btn {
+  border: none;
+  outline: none;
+  background: #764abc;
+  padding: 5px 10px;
+  color: #fff;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.btn:hover {
+  background: #513282;
+}
+
+.cartCount {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-left: 220px;
+  color: rgb(240, 243, 240);
+}
+.navLink {
+  text-decoration: none;
+  color: black;
+  margin-left: 76px;
+}
+
+.cartCard {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  margin-bottom: 20px;
+  padding: 14px;
+  border-radius: 5px;
+}
+
+.imagee{
+  height: 80px;
+}
+
+.Products{
+  justify-content: space-between;
+  
+}
+
+.heading{
+  background-color: rgb(213, 225, 235);
+  text-align: center;
+}
+
+.heading:hover{
+  background-color: rgb(156, 172, 185);
+  color: white;
+}
+
+.heading1{
+  background-color: rgb(88, 140, 185);
+  height: 42px;
+  font-weight: bolder;
+  padding-top: 10px;
+}
+
+.form{
+  text-align: center;
+}
+
+input {
+  width: 100%;
+}
+
+.heading{
+  text-align: center;
+}
+
+button{
+  width:100%;
+  margin-top: 22px;
+}
+
+.search{
+  width: 240px;
+  margin-left: 60px;
+  border: 2px lavenderblush;
+  border-radius: 8px;
+}
+
+.searchBut{
+  width: 63px;
+  border-radius: 10px;
+  margin-left: 6px;
+  height: 30px
 }

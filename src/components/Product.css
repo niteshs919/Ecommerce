@@ -1,0 +1,22 @@
+i{
+    margin-left: 255px;
+    margin-top: -15px;
+}
+
+
+.BuyNow{
+    background-color: aqua;
+    width: 140px;
+    height: 36px;
+    border-radius: 11px;
+    margin-right: 10px;
+}
+.BuyNow:hover{
+  color: white;
+  background-color: red;
+}
+
+.select{
+    display: flex;
+   padding: 7px;
+}

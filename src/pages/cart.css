@@ -1,0 +1,20 @@
+.quantity {
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 75px;
+
+}
+
+.incre,
+.decre {
+    margin-top: 4px;
+}
+
+.Pquantity {
+    margin-top: 6px;
+}
+
+.totalprice{
+    background-color: #d5b5b5;
+    text-align: end;
+}

@@ -1,0 +1,9 @@
+.totalprice{
+    background-color: #d5b5b5;
+    text-align: end;
+}
+
+.totalprice:hover{
+    background-color: #c78787;
+    color: white;
+}
